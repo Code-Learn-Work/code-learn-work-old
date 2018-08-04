@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Learn Work</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <!-- Bootstrap, JavaScript and CSS files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+         #pic{
+            width: 50px;
+            height: 50px;
+        }
+        .heading{
+            padding-left: 20px;
+            text-decoration: underline;
+        }
+        .desc{
+            padding-left: 20px;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .resc{
+            padding-left: 20px;
+        }
+        .abt{
+            font-size: 22px;
+        }
+        @media ( min-width: 768px ) {
+            .grid-divider {
+                position: relative;
+                padding: 0;
+            }
+            .grid-divider>[class*='col-'] {
+                position: static;
+            }
+            .grid-divider>[class*='col-']:nth-child(n+2):before {
+                content: "";
+                border-left: 1px solid #DDD;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+            }
+            .col-padding {
+                padding: 0 15px;
+            }
+        }
+        .pict{
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+    
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="pull-left"><img src="./images/logo.png" id="pic" alt=""></a>
+                    <a href="#" class="navbar-brand"> Code Learn Work</a>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+    
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Courses<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Android Development</a></li>
+                                <li><a href="#">Coding Languages</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#"><span class="glyphicon glyphicon-log-in"></span>
+                                 Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <img src="./images/webBG.jpeg" class="img-responsive" alt="">
+    </section>
+    <section>
+        <b><h1 class="heading">Resources to Learn Web Development for Beginners</h1></b>
+        <p class="desc">
+            One of the most exciting prospects of getting into a field is getting into it the right way. Web Development is different from most of the professions as it doesn't require months/years of training, but we can simply get started with it right from now ! The best place to begin getting a feel for how development works are the numerous free, self-guided online web development courses that cover everything from basic programming introductions to development best practices.  Below we’ll take a look at the cream of the crop web development courses and highlight what they can each offer you and a selection of the best links or tools to check out.
+        </p>
+    </section>
+    <hr>
+    <section class="resc">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/codeacademy.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2><u>CODEACADEMY</u> (<a href="https://www.codecademy.com/" target="_blank">visit</a>)</h2>
+                <p class="abt">Codecademy provides a series of self-guided tutorials for beginners to learn the basics of web development programming.  An in-browser, self-contained development environment is created where you can learn the basic structures of front-end code like HTML and CSS, before moving on to back-end languages such as Ruby on Rails and Python.</p>
+                <p class="abt">
+                    Don’t miss… The Make a Website and HTML & CSS programs are great beginning points if you need to learn the basics of web structure and design.  For heavier coding, try the Ruby language tutorial followed by the Learn Ruby on Rails guide for making a basic, functional website.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h2><u>KHAN ACADEMY</u> (<a href="https://www.khanacademy.org/computing/computer-programming" target="_blank">visit</a>)</h2>
+                <p class="abt">
+                    An extremely useful learning site that covers all manner of subject, and the computer programming section of Khan Academy in particular cannot be overlooked.  It features a variety of self-guided tutorials, generally with experts providing audio and/or video guidance on the topic while interactive on-screen windows show the code and output the results during narration.
+                </p>
+                <p class="abt">
+                    Don’t miss… The great introduction to the SQL database engine includes guided narration and even personal challenges that ask you to write SQL yourself to perform simple tasks.  A fun series for learning the basics of drawing and animation using JavaScript is great for getting into that prolific front-end language.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/Khan-Academy-logo.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/MIT-OCW.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2><u>MIT OPEN-COURSEWARE</u> (<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">visit</a>)</h2>
+                <p class="abt">
+                    An abundance of self-guided courses from none other than one of the best technical schools in the United States, MIT.  The MIT OpenCourseware program offers an incredible breadth of topics to learn about, including hundreds of courses relating to programming, development, mathematics, and computer engineering.
+                </p>
+                <p class="abt">
+                    Don’t miss… Introduction to Computer Science and Programming which is a full, independent study course including all resources and course materials to get you excited about and interested in programming.  A Gentle Introduction to Programming Using Python is also a great resource to get insight into that popular and well-designed back-end language.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h2><u>COURSERA</u> (<a href="https://www.coursera.org/" target="_blank">visit</a>)</h2>
+                <p class="abt">Similar to MIT OpenCourseware, Coursera offers a plethora of online courses from a variety of universities around the world for free.  Each course varies slightly in format and timeline, but numerous courses are available for programming, development, and computer science to get a taste.</p>
+                <p class="abt">Don’t miss… A great beginners guide to programming can be found in the Programming for Everyone course from University of Michigan.  While the language used throughout the course is specific to Python, the course itself is focused on the concepts of general programming that can be applied to virtually all languages you’ll encounter for years to come.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/coursera.png"  class="img-responsive pict" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/mdn.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2><u>MOZILLA DEVELOPER NETWORK</u> (<a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">visit</a>)</h2>
+                <p class="abt">Mozilla, the team behind the popular Firefox web browser, have created an incredible resource for developers of all skills levels and expertise through the Mozilla Developer Network.  These resources, articles, and tutorials are perfect for those who absorb information and learn best using the tried-and-true method of reading words and seeing examples right there on the page.  The range of topics is wide, from basic web introductions and front-end languages to common vocabulary and optimization & performance.</p>
+                <p class="abt">Don’t miss… Getting started with the Web is a great resource for beginners to learn about how websites function, and the guide then moves onto writing and playing around with front-end technologies such as HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>
