@@ -30,27 +30,19 @@
         .abt{
             font-size: 22px;
         }
-        @media ( min-width: 768px ) {
-            .grid-divider {
-                position: relative;
-                padding: 0;
+        @media ( max-width: 768px ) {
+            .resc h2{
+                text-align: center;
             }
-            .grid-divider>[class*='col-'] {
-                position: static;
-            }
-            .grid-divider>[class*='col-']:nth-child(n+2):before {
-                content: "";
-                border-left: 1px solid #DDD;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-            }
-            .col-padding {
-                padding: 0 15px;
+            .heading{
+                text-align: center;
             }
         }
         .pict{
-            margin-top: 150px;
+            margin: 100px 0px;
+        }
+        .cen{
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -74,12 +66,12 @@
     
                 <div id="navbarCollapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li class="dropdown">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html/#about">About</a></li>
+                        <li class="dropdown active">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">Courses<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Web Development</a></li>
+                                <li class="active"><a href="./web.html">Web Development</a></li>
                                 <li><a href="#">Android Development</a></li>
                                 <li><a href="#">Coding Languages</a></li>
                                 <li class="divider"></li>
@@ -120,7 +112,7 @@
     <section class="resc">
         <div class="row">
             <div class="col-md-6">
-                <img src="./images/codeacademy.png" class="img-responsive" alt="">
+                <img src="./images/codeacademy.png" class="img-responsive cen" alt="">
             </div>
             <div class="col-md-6">
                 <h2><u>CODEACADEMY</u> (<a href="https://www.codecademy.com/" target="_blank">visit</a>)</h2>
@@ -142,13 +134,13 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="./images/Khan-Academy-logo.jpg" class="img-responsive" alt="">
+                <img src="./images/Khan-Academy-logo.jpg" class="img-responsive cen" alt="">
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-6">
-                <img src="./images/MIT-OCW.jpg" class="img-responsive" alt="">
+                <img src="./images/MIT-OCW.jpg" class="img-responsive cen" alt="">
             </div>
             <div class="col-md-6">
                 <h2><u>MIT OPEN-COURSEWARE</u> (<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">visit</a>)</h2>
@@ -174,7 +166,7 @@
         <hr>
         <div class="row">
             <div class="col-md-6">
-                <img src="./images/mdn.png" class="img-responsive" alt="">
+                <img src="./images/mdn.png" class="img-responsive cen" alt="">
             </div>
             <div class="col-md-6">
                 <h2><u>MOZILLA DEVELOPER NETWORK</u> (<a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">visit</a>)</h2>
@@ -183,6 +175,28 @@
             </div>
         </div>
         <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h2><u>HTML5 ROCKS</u> (<a href="https://www.html5rocks.com/en/" target="_blank">visit</a>)</h2>
+                <p class="abt">While the interface is a bit lackluster and finding relevant articles can be somewhat challenging, the HTML5 Rocks site — that was created by Google — provides a wide assortment of articles and tutorials on all manner of web development topics, with intended audiences ranging from beginners to advanced developers.</p>
+                <p class="abt">Don’t miss… Getting Started with CSS Shapes provides a great introduction into advanced CSS techniques that many beginners may not even realize can be accomplished purely with CSS.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/html5rocks-logo-wings.png" class="img-responsive cen" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/code.jpg" class="img-responsive pict" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2><u>A LIST APART</u> (<a href="https://alistapart.com/articles">visit</a>)</h2>
+                <p class="abt">One of the most professional and up-to-date online magazines directly aimed at web developers and designers, A List Apart is home to a multitude of exceptional articles dealing with everything from coding and techniques to design and user experience.  If you want to do some light reading and learn from the experience and advice of other experts in the field, browsing through the articles here is a great resource.</p>
+                <p class="abt">Don’t miss… Building Nonlinear Narratives for the Web offers great insight into the notion that the scattered, modular nature of modern websites requires that narratives about our content are allowed to be free-flowing and not follow the traditional “beginning, middle, end” structure of storytelling.  Also check out Reframing Accessibility for the Web, which attacks some of our own inherent prejudices about web users with disabilities and how developers can move forward designing for accessibility, regardless of the user at the other end.</p>
+            </div>
+        </div>
     </section>
+    <hr>
 </body>
 </html>
