@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         #promise{
             padding-left: 20px;
@@ -18,6 +19,12 @@
         #pic{
             width: 50px;
             height: 50px;
+        }
+        .pic1{
+            margin-top: 15px;
+            height: 200px;
+            border-radius: 50%;
+            margin-left: 15px;
         }
         @media ( min-width: 768px ) {
             .grid-divider {
@@ -64,6 +71,27 @@
         a:hover{
             color: gray;
         }
+        .footer{
+            background-color:black;
+            color: white;
+        }
+        .footer li{
+            font-size: 1em;
+            color: white;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        .fa-facebook {
+            background-color: skyblue;
+            color: white;
+        }
+
     </style>
 </head>
 <body onload="typeWriter();addCite()">
@@ -172,7 +200,7 @@
 
             <div class="col-md-4">
                 <img src="./images/android.jpg" class="img-responsive courses" alt="">
-                <h1 class="abt">Android Development</h1>
+                <h1 class="abt">Mobile Development</h1>
             </div>
             
             <div class="col-md-4">
@@ -181,6 +209,42 @@
             </div>
         </div>
     </section>
-
+    <hr>
+    <footer>
+        <div class="row footer">
+            <div class="col-md-6">
+                <div class="col-md-6">
+                    <img src="./images/CodeLearnWork.png" class="img-responsive pic1" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p style="font-size: 2em;margin-top: 15px">"One Stop For All The Engineering Needs."</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente blanditiis nesciunt, necessitatibus dolore ipsa molestiae recusandae vero iure nulla laudantium reiciendis
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-6">
+                    <p style="font-size: 2em;margin-top: 15px;"><u>Our Services</u></p>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Mobile Development</li>
+                        <li>Programming Languages
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>C</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p style="font-size: 2em;margin-top: 15px"><u>Connect With Us</u></p>
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
