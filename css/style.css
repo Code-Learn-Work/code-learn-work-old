@@ -1,0 +1,110 @@
+#promise{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+#pic{
+    width: 50px;
+    height: 50px;
+}
+.pic1{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+@media(max-width: 768px){
+    .cor{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.abt{
+    padding-left: 40px;
+}
+.courses{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+a:link{
+    color: rgb(53, 52, 52);
+}
+a:visited{
+    color: rgb(53, 52, 52);
+}
+a:hover{
+    color: gray;
+}
+.footer{
+    background-color:black;
+    color: white;
+}
+.footer li{
+    font-size: 1em;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background-color: skyblue;
+    color: white;
+}
+.black-overlay{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),url("../images/img1.jpg");
+    background-size: cover;   
+    color: white;
+}
+.in {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-size: 5em;
+}
+.in1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -10px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 3.5em;
+}
+.in1 a{
+    color: white;
+}
