@@ -6,7 +6,7 @@ An organization where you can learn to code the easiest way and make the best ca
 - We make websites and mobile apps for any company.
 
 ### Our Projects
-- [Codage101](http://codage101.tk)
+- [Codage101](https://code-learn-work.github.io/codage101/)
 - [Centurian Systems](https://centurain-systems.github.io/Centurian-Systems)
 
 ### Visit Us At
