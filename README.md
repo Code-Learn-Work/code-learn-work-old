@@ -7,7 +7,7 @@ An organization where you can learn to code the easiest way and make the best ca
 
 ### Our Projects
 - [Codage101](https://code-learn-work.github.io/codage101/)
-- [Centurian Systems](https://centurain-systems.github.io/Centurian-Systems)
+- [Centurian Systems](https://centuriansystems.github.io/Centurian-Systems/)
 
 ### Visit Us At
 - [Youtube](https://www.youtube.com/channel/UCK3tMYk6lmyByIZ8-1Tk1aQ) : Subscribe, Like and Share
